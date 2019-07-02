@@ -1,14 +1,16 @@
 @import "bootstrap";
 body{
 	background: image_url('concrete-texture.png');
+	 font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
 }
 
 
 .navbar{
-	background: image_url('darkness.png');
+	font-family: "Helvetica Neue", Helvetica;
 	font-weight:200;
 	box-shadow:0px 1px 3px #2a2a2a; 
-	font-family: "Helvetica Neue", Helvetica;
+	
+	background: image_url('darkness.png');
 }
 
 .navbar-inverse a.navbar-brand {
@@ -51,6 +53,13 @@ h1, h2, h3, h4, h5, h6, .navbar {
 
 .btn{
 	border-radius: 0;
+}
+
+.feature {
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-color: orange;
 }
 
 
